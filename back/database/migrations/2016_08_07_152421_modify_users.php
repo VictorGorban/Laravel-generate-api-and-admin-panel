@@ -14,7 +14,7 @@ class ModifyUsers extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->string('photo')->nullable();
-            $table->integer('cb_roles_id');
+            $table->integer('cb_roles_id')->default(1);
             $table->ipAddress("ip_address")->nullable();
             $table->string("user_agent")->nullable();
             $table->timestamp("login_at")->nullable();

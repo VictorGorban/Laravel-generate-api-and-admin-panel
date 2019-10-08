@@ -201,6 +201,8 @@
       <path value="$PROJECT_DIR$/back/vendor/larapack/doctrine-support" />
       <path value="$PROJECT_DIR$/back/vendor/seld/phar-utils" />
       <path value="$PROJECT_DIR$/back/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/back/vendor/test-hook/src" />
+      <path value="$PROJECT_DIR$/back/vendor/test-hook/.git" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
